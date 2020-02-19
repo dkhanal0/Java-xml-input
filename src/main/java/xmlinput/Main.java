@@ -10,7 +10,11 @@ public class Main {
         XmlReader myXmlReader = new XmlReader("products.xml");
 
         for (Product p: myXmlReader.getProducts()) {
-            //System.out.println(p.values()); // When ready, use this for testing
+            System.out.println(p.values()); // When ready, use this for testing
+
+
+
+
         }
 
     }
