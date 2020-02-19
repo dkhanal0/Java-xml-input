@@ -9,7 +9,7 @@ public class TaxableProduct extends Product {
         super(productName, ISBN, unitPrice);
     }
 
-    // Implement values() method
+    // Implement values() method.
     @Override
     public String values() {
         return  (getProductName() + ":" + getIsbn() + ":" + getUnitPrice() + ":" + "taxable");
